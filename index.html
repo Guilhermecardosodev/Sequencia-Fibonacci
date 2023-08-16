@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sequência de Fibonacci</title>
+
+  <h1>  <p ALIGN=CENTER>
+    <FONT COLOR="white">
+      <FONT SIZE="5">
+        <FONT FACE="COMIC SANS MS">
+          <b>
+            <font size="7">
+            Leonardo Fibonacci
+          </font>
+        </FONT COLOR>
+      </FONT></B></p>
+
+
+<A HREF="https://www.ebiografia.com/leonardo_fibonacci/
+"><IMG SRC="fibonacci.JPG" ALIGN="TOP"></A> 
+
+<hr>
+<h2>
+<div><p>
+  <font size="5">
+  Matemático italiano
+</font></p>
+</div>
+
+<p><font size="5"> Leonardo Fibonacci, também conhecido como Leonardo de Pisa,
+   Leonardo Pisano ou ainda Leonardo Bigollo, (Pisa, c. 1170 — Pisa?, c. 1250) 
+   mais reconhecido como Fibonacci, foi um matemático italiano nomeado como o 
+   primeiro grande matemático europeu da Idade Média. É considerado por alguns 
+   como o mais talentoso matemático ocidental da Idade Média.Ficou conhecido pela
+    divulgação da sequência de Fibonacci e pela sua participação na introdução dos 
+    algarismos arábicos na Europa.</p></font>
+
+<p><font size="5">Como outros matemáticos do seu tempo,
+   contribuiu para o  renascimento das ciências exatas,
+    após a decadência do último período da antiguidade 
+    clássica e do início da Idade Média, mas Fibonacci 
+    se destacou ao escrever o Liber Abaci, em 1202 (atualizado em 1254),
+     a primeira obra importante sobre matemática desde Eratóstenes,
+      isto é, mais de mil anos antes. O Liber Abaci introduziu os 
+      numerais hindu-arábicos na Europa, além de discutir muitos
+       problemas matemáticos.</p></font>
+
+<p><font size="5">Fibonacci é também conhecido
+   pela sequência numérica nomeada após sua
+    morte como sequência de Fibonacci. Ele 
+    não descobriu, mas usou-a como exemplo 
+    no Liber Abaci.</p> </font>
+</h2>
+<hr>
+
+
+</h1>
+
+  <h3>  <b><FONT COLOR="gold">  
+    <A HREF="https://www.educamaisbrasil.com.br/enem/matematica/sequencia-de-fibonacci">
+      <b><FONT COLOR="gold"><U>sequencia fibonacci infinita:</U></font></U></A>
+ </h3>
+
+
+  <style>
+    
+    body {
+
+
+
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
+
+    #fibonacci-container {
+      font-size: 20px;
+       color: red; /
+    }
+  </style>
+</head>
+
+<body background="bgblack.jpg" bgproperties="fixed">
+  <div id="fibonacci-container"></div>
+
+  <script>
+    function generateFibonacci() {
+      const container = document.getElementById('fibonacci-container');
+      let a = 0;
+      let b = 1;
+
+      setInterval(() => {
+        const sum = a + b;
+        container.innerHTML += sum + ', ';
+        a = b;
+        b = sum;
+      }, 1000); // Renderiza o próximo número a cada segundo
+
+    }
+ 
+    generateFibonacci();
+
+  </script>
+</body> <hr>
+</html>
