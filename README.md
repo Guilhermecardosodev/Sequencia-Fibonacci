@@ -2,6 +2,8 @@
 
 Este projeto é uma implementação simples da sequência de Fibonacci em HTML, CSS JavaScript, acompanhado de uma explicação sobre o seu funcionamento, linhagem histórica e importância em matemática e outras áreas.
 
+(https://guilhermecardosodev.github.io/Sequencia-Fibonacci/)
+
 ## Funcionamento
 
 A sequência de Fibonacci é uma série de números em que cada número é a soma dos dois números anteriores. Começando com 0 e 1, os primeiros números da sequência são: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 e assim por diante. Neste projeto, utilizamos um loop para gerar e renderizar a sequência de Fibonacci infinitamente na página.
