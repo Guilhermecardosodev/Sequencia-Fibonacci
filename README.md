@@ -2,7 +2,7 @@
 
 Este projeto é uma implementação simples da sequência de Fibonacci em HTML, CSS JavaScript, acompanhado de uma explicação sobre o seu funcionamento, linhagem histórica e importância em matemática e outras áreas.
 
-(https://guilhermecardosodev.github.io/Sequencia-Fibonacci/)
+Click aqui!: (https://guilhermecardosodev.github.io/Sequencia-Fibonacci/)
 
 ## Funcionamento
 
